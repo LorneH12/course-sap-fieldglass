@@ -1,25 +1,11 @@
 # SAP Fieldglass: Review a Time Sheet
 
-Independent portfolio sample by Lorne Hopkins. Release candidate, not official employer/vendor training.
+[Open public review course](https://lorneh12.github.io/course-sap-fieldglass/)
 
-## Run
+## Current branded release
 
-Open index.html, or run `python3 -m http.server 8000` in this folder. Public preview sends no learner data.
+Edit **branded-course.json**, then run `python3 build-release.py`. The entry point uses course-data.js, experience.js, experience.css and widgets.js, plus the existing js/tracking.js adapter. The earlier assets/course.json and js/player.js are retained historical source; do not use the older scripts/build.py for this release.
 
-## Author and brand
+See [release notes](RELEASE-NOTES.md) for creative direction, media provenance and verification limits. The matching LMS candidate is release-scorm12.zip; real LMS verification remains pending.
 
-Edit assets/course.json, then run `python3 scripts/build.py`. Brand values live in the JSON and generated css/brand.css. HTML, CSS, JavaScript and assets remain separate.
-
-## Learning record modes
-
-SCORM 1.2 launches initialize an LMS API, write bookmark, limited suspend state, score and participation completion. Writing is excluded from LMS storage. Resume requires re-entering/reviewing the written response. Local synthetic xAPI mode requires the suite lab gateway and `?tracking=lab`. Never place LRS credentials in these files.
-
-## Verification boundary
-
-See qa/ for executed checks. A mocked SCORM test is not a Moodle runtime test. Screen-reader testing, real LMS launch/resume and pilot review remain release gates. This custom portfolio player is an explicit development choice to preserve the high-fidelity design; it is not an Adapt export. Existing Adapt infrastructure remains available and unchanged.
-
-## Sources
-
-- [SAP: Worker Management, processing time and expense sheets](https://help.sap.com/doc/b73c66e5e56e4af8a2203a3932f935d5/Cloud/en-US/SAP_FG_Worker_Management.pdf)
-
-Reviewed 9 October 2026. Company-specific procedures and UI configuration must be validated in the intended tenant.
+Independent brand-inspired portfolio sample by Lorne Hopkins. No employer or vendor endorsement. Fictional scenarios. No learner records sent in public preview. Optional narrated video uses existing catalog media and requires internet. No purchases or credentials were created.
