@@ -1,0 +1,133 @@
+{
+  "id": "sap-fieldglass",
+  "title": "SAP Fieldglass: Review a Time Sheet",
+  "headline": "Review the evidence.\nChoose the right action.",
+  "audience": "Buyer-side managers learning a time-sheet review workflow",
+  "need": "A reviewer approves a fictional time sheet without comparing it with the supporting work record.",
+  "outcomes": [
+    "Identify a mismatch between a time sheet and a supporting record.",
+    "Choose an approval or rejection response with a specific reason."
+  ],
+  "concepts": [
+    {
+      "title": "Know your role and configuration",
+      "body": "This lesson is a simplified buyer-review simulation, not a live SAP Fieldglass interface. Menu labels, available actions and approval routing depend on company configuration and your permissions. Use your organization’s procedure for real work."
+    },
+    {
+      "title": "Review before acting",
+      "body": "Check the worker, period, hours or units and relevant work details against the authorized supporting evidence. The comparison checklist in this sample is fictional training guidance, not an SAP-mandated company policy."
+    },
+    {
+      "title": "Approve or reject with a reason",
+      "body": "SAP Fieldglass supports buyer approval or rejection of time and expense sheets. Rejection requires a reason; rejected sheets can be corrected and resubmitted. Use a precise, factual reason so the submitter knows what to fix."
+    },
+    {
+      "title": "Recognize a different correction path",
+      "body": "A sheet already approved and invoiced may need the revised-time-sheet process. Do not treat an invoiced correction as if it were still a pending approval. Available revision options depend on configuration; follow the approved process."
+    }
+  ],
+  "example": {
+    "title": "Fictional record FG-204",
+    "body": "The pending time sheet shows Monday 8, Tuesday 8, Wednesday 8, Thursday 8 and Friday 8 hours: total 40. The authorized work record shows Friday 6 hours and all other days 8: total 38.",
+    "steps": [
+      "Confirm the same worker and week are being compared.",
+      "Locate the mismatch: Friday differs by two hours.",
+      "Choose Reject in this pending-review simulation.",
+      "Reason: Friday shows 8 hours; the supporting record shows 6. Please correct or supply the missing evidence and resubmit."
+    ]
+  },
+  "practice": {
+    "prompt": "Pending sheet: 40 hours. Supporting record: 38, with Friday differing by two. What is the best next action in this case?",
+    "options": [
+      "Approve because the total looks normal",
+      "Reject with the Friday discrepancy and a clear correction request",
+      "Delete the worker"
+    ],
+    "key": 1,
+    "feedback": "The evidence does not support approval. A specific reason enables correction without making unrelated changes."
+  },
+  "draft": {
+    "prompt": "Write a rejection reason for the Friday mismatch. Include the location, observed difference and requested next step.",
+    "label": "Your reviewer note",
+    "model": "For the week on FG-204, Friday lists 8 hours while the supporting record lists 6. Please correct Friday or provide the additional authorized evidence, then resubmit for review.",
+    "criteria": [
+      "Identifies the affected period or record",
+      "States the specific discrepancy",
+      "Requests correction or supporting evidence",
+      "Uses factual and respectful language"
+    ]
+  },
+  "quiz": [
+    {
+      "prompt": "What should you confirm before comparing totals?",
+      "options": [
+        "The same worker and period",
+        "Only the color of the row",
+        "The supplier logo size"
+      ],
+      "key": 0,
+      "feedback": "A comparison is meaningful only when the records describe the same work."
+    },
+    {
+      "prompt": "The sheet has a known unsupported two-hour difference. Choose…",
+      "options": [
+        "Approve and hope it is correct",
+        "Reject with a precise reason",
+        "Close the browser and call it approved"
+      ],
+      "key": 1,
+      "feedback": "A documented discrepancy requires resolution in this scenario."
+    },
+    {
+      "prompt": "Which rejection note is most useful?",
+      "options": [
+        "Wrong",
+        "Fix it",
+        "Friday lists 8; the record lists 6. Correct or provide support, then resubmit."
+      ],
+      "key": 2,
+      "feedback": "It locates the issue and explains the next action."
+    },
+    {
+      "prompt": "A sheet is already approved and invoiced. What should you investigate?",
+      "options": [
+        "The configured revised-time-sheet process",
+        "Whether to delete the person",
+        "Whether all companies use identical screens"
+      ],
+      "key": 0,
+      "feedback": "The state of the sheet affects the appropriate correction path."
+    },
+    {
+      "prompt": "Why might a real user see different actions?",
+      "options": [
+        "The simulation guarantees every tenant is identical",
+        "Configuration and permissions can differ",
+        "Approval has no workflow"
+      ],
+      "key": 1,
+      "feedback": "Tenant settings and role permissions affect the available workflow."
+    }
+  ],
+  "jobaid": [
+    "Confirm worker, period and supporting evidence.",
+    "Compare hours or units at the detail level.",
+    "Resolve mismatches with a precise reason.",
+    "Use the correction path appropriate to the sheet’s status."
+  ],
+  "sources": [
+    [
+      "SAP: Worker Management, processing time and expense sheets",
+      "https://help.sap.com/doc/b73c66e5e56e4af8a2203a3932f935d5/Cloud/en-US/SAP_FG_Worker_Management.pdf"
+    ]
+  ],
+  "duration": "12–15 minutes",
+  "version": "1.0.0",
+  "brand": {
+    "name": "intuit turbotax",
+    "context": "Independent portfolio study",
+    "primary": "#C8202F",
+    "ink": "#172B32"
+  },
+  "disclosure": "Original fictional workplace scenarios. This independent portfolio sample is not official employer or vendor training."
+}
