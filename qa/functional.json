@@ -1,0 +1,150 @@
+{
+  "course": "sap-fieldglass",
+  "status": "passed",
+  "browser": "141.0.7390.37",
+  "checks": [
+    "Complete task path and empty-input errors",
+    "Exact draft export",
+    "100% and 0% score boundaries; first attempt retained",
+    "Completion remains distinct from success",
+    "All 10 screens reflow at 320px with larger text",
+    "Browser-to-real-LRS delivery receipts"
+  ],
+  "receipts": [
+    {
+      "id": "0f543be0-a236-410f-834d-54e1ae9cfcd3",
+      "stored": true,
+      "verb": "initialized"
+    },
+    {
+      "id": "4eec583a-114d-4aaf-8c42-e77d5335705e",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "2cc588dd-b2df-4b75-ac8a-46aba9d74f5b",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "2e0279f8-eab2-4dac-9b18-7f451fd15f0a",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "1aad446a-240c-46ee-93d9-bfea55593f82",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "a7207cdc-8db0-48a5-b06c-e866d5bd5e61",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "7dade5b7-b44e-41f8-95bc-aedf5371cd3c",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "4ec13c0f-8b17-465c-b45e-2c740db78c9e",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "9defbd90-8b67-436f-a1e8-fce728a26ba2",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "e7282f85-958c-49a0-82e8-99d0967931ee",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "edae8c09-0080-4b3b-ae0e-7365b97c6d87",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "9bc24d2e-b96f-4479-a899-92e8c5acb612",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "138cde5d-55fc-4a24-9f19-0e553c2fb167",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "8f5b1a7b-fa8d-4397-9dc0-ddeb6b7436a5",
+      "stored": true,
+      "verb": "passed"
+    },
+    {
+      "id": "0d071903-7927-428a-b1cb-512fb2c8f5f3",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "37e3fe34-360f-4b51-9136-be6b47ab24fb",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "1b7e5ecd-912b-44da-8d58-45ae17eceb96",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "b06e9eea-c253-4416-9e86-c6d437f29cef",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "5a8e9416-502a-4e7b-a117-a560ec3b0d59",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "d7510304-2f7a-4f1d-9b4e-13ae62661a62",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "4f2d143d-8a78-4a04-aa6c-34c863197f1e",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "f0aac17d-ee30-41b8-83b6-1d3d6a7e1c1e",
+      "stored": true,
+      "verb": "failed"
+    },
+    {
+      "id": "08dbb5ea-1b1e-46dd-b61b-538090d23eb5",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "b9c268d5-4bc5-4de4-ba1d-b3961b61b9d4",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "851ff88e-56be-4eba-bb08-f9fa15ec5ded",
+      "stored": true,
+      "verb": "completed"
+    },
+    {
+      "id": "2bff6788-492c-440a-98c4-facc97f66d84",
+      "stored": true,
+      "verb": "experienced"
+    }
+  ],
+  "limitations": [
+    "Not a full WCAG audit",
+    "Not a real Moodle test",
+    "Not a learner pilot"
+  ]
+}

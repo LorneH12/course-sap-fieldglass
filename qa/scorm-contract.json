@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "course": "sap-fieldglass",
+  "checks": [
+    "SCORM 1.2 initialization and incomplete status",
+    "Score 100 sent through LMSSetValue",
+    "Suspend payload below 4096 characters; no writing",
+    "Results resume from stored state",
+    "Finish called once",
+    "Failed commit visible"
+  ],
+  "boundary": "Contract harness only; not Moodle runtime or SCORM certification"
+}

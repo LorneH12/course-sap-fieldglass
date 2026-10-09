@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "archive": "course-sap-fieldglass-scorm12.zip",
+  "sha256": "50c2e8c7432da41f2dda3a0cb0f7a6ffa3c1cd2859fceca2097673185815e411",
+  "checks": [
+    "Manifest parses",
+    "Launch target present",
+    "All manifest files present",
+    "SCORM 1.2 SCO declaration"
+  ],
+  "boundary": "Structural test, not schema conformance or Moodle import"
+}

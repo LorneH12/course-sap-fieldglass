@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "retrieved_exact_statements": 156,
+  "identity": "Synthetic loopback lab only",
+  "real_lrs": "SQL LRS 0.9.9"
+}

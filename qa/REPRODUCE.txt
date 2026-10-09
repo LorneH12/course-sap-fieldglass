@@ -1,0 +1,1 @@
+Full test harness is in elearning-course-studio. These reports are observed local results. Course-level copies of suite scripts reference the suite layout; use the studio repository to rerun. Real Moodle, screen-reader and learner pilot checks remain pending.
