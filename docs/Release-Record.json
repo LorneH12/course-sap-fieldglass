@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0-rc.1",
+  "date": "2026-10-09",
+  "status": "Portfolio release candidate",
+  "tracking_sha256": "3f019c867483287df0e4df118e89072a4e612debe11c7410f5cbdbce41304a26",
+  "pending": [
+    "Independent content review",
+    "Full manual accessibility audit",
+    "Real Moodle import/resume/status test",
+    "Authenticated production identity",
+    "Learner pilot"
+  ],
+  "publication": "Public static demonstration; no telemetry by default"
+}

@@ -1,0 +1,8 @@
+{
+  "asset": "assets/trainer-hero.webp",
+  "tool": "Built-in image generation",
+  "dimensions": "1536 x 1024",
+  "use": "Original illustrative trainer-studio hero; not actual employer staff",
+  "prompt": "Use case: photorealistic-natural. Asset type: wide editorial hero photograph for an independent Intuit TurboTax-inspired train-the-trainer eLearning portfolio prototype. Scene: bright contemporary learning studio, three adult professional colleagues, diverse genders and backgrounds, around a white table reviewing a training worksheet. A confident Black woman trainer in a refined red knit top facilitates; a colleague listens thoughtfully and another writes notes, natural collaborative energy, no staged smiles at camera. Medium wide photograph, eye-level, authentic skin texture, realistic hands, generous daylight, deep charcoal and white furniture, subtle red accents, an airy architectural background. Composition: subjects grouped around center and right, leave some quiet architectural space to left; wide landscape 3:2 crop safe for responsive hero. No tax documents, no customer data, no identifiable employer premises. No text, no logos, no watermark, no UI overlays. Premium editorial photography, informative human learning context rather than generic call-center imagery.",
+  "optimization": "Lossy WebP encoding of original generated PNG at original dimensions; no compositional edits."
+}

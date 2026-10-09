@@ -1,0 +1,49 @@
+{
+  "analysis": {
+    "audience": "Buyer-side managers learning a time-sheet review workflow",
+    "performance_gap_hypothesis": "A reviewer approves a fictional time sheet without comparing it with the supporting work record.",
+    "validation": "No learner interviews or SME sign-off yet",
+    "objectives": [
+      "Identify a mismatch between a time sheet and a supporting record.",
+      "Choose an approval or rejection response with a specific reason."
+    ]
+  },
+  "design": {
+    "route": [
+      "Welcome",
+      "Problem",
+      "Concepts",
+      "Worked example",
+      "Practice",
+      "Draft",
+      "Quiz",
+      "Results",
+      "Transfer",
+      "Completion"
+    ],
+    "assessment": "5 original items; 80% target; self-reviewed writing is separate",
+    "brand": "TurboTax-inspired provisional portfolio identity; configurable",
+    "hero": "Original illustrative trainer photograph; reused across learning series",
+    "accessibility_target": "WCAG 2.2 AA; validation pending beyond automated browser checks"
+  },
+  "development": {
+    "content": "assets/course.json",
+    "player": "js/player.js",
+    "tracking": "js/tracking.js",
+    "status": "Release candidate"
+  },
+  "implementation": {
+    "preview": "GitHub Pages candidate",
+    "LMS": "SCORM 1.2 package; real Moodle import still required",
+    "LRS": "Loopback synthetic session lab; public authenticated identity not implemented"
+  },
+  "evaluation": {
+    "pilot": "Not performed",
+    "proposed_evidence": [
+      "First/latest item decisions",
+      "Independent rubric review of writing",
+      "Observed workplace transfer"
+    ],
+    "release_gate": "No production or accessibility conformance claim before outstanding validations"
+  }
+}
