@@ -16,3 +16,6 @@ Catalog baseline: dbc29fed2529503420d17e1b3df975407a15634f. Transcript reviewed 
 
 ## Evidence and constraints
 Brand-inspired portfolio sample, no employer endorsement. All scenarios synthetic. Five-question check target 80%; participation completion is separate. Writing self-review is not a competence score. No learning-record backend deployed. Full accessibility, human pilot and real LMS interoperability remain pending. No purchases or new credentials.
+
+## Media-first revision
+Prominent AI-generated editorial hero (fictional person), immediate Watch entry, expanded narrated film with captions and full Read alternative; rehearsal before worked-example prose. Existing catalog film reused; no new presenter generation. Other five courses not yet redesigned.
